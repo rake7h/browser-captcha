@@ -1,0 +1,44 @@
+{
+  "name": "browser-captcha",
+  "version": "0.1.0",
+  "description": "light weight client side only captcha library.",
+  "author": "hello@rake7h.com",
+  "license": "MIT",
+  "main": "./dist/browser-captcha.umd.cjs",
+  "module": "./dist/browser-captcha.js",
+  "types": "./dist/declarations/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "captcha",
+    "react-captcha",
+    "captcha-js",
+    "browser-captcha",
+    "client-side-captcha"
+  ],
+  "scripts": {
+    "dev": "vite serve tester-app",
+    "build": "vite build",
+    "check-type": "tsc",
+    "ci": "yarn check-format && yarn build && yarn type-check",
+    "fix-format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "check-exports": "attw --pack ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rake7h/browser-captcha.git"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/cli": "^0.16.4",
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.11",
+    "@vitejs/plugin-react": "^4.3.2",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.8"
+  }
+}

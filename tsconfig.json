@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationDir": "dist/declarations",
+    "outDir": "dist",
+    "module": "Preserve",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true
+  },
+  "include": ["lib"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
